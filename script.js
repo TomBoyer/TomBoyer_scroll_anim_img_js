@@ -6,7 +6,7 @@ const slidingNewsletter = document.querySelector(".slide-in");
 window.addEventListener("scroll", () => {
   const { scrollTop, clientHeight } = document.documentElement;
 
-  const topElementToTopViewport = slidingNewsletter.getBoudingClientRect().top;
+  const topElementToTopViewport = slidingNewsletter.getBoundingClientRect().top;
 
   if (
     scrollTop >
